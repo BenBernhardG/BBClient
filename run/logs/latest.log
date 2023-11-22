@@ -421,3 +421,173 @@ com.google.gson.JsonParseException: Invalid/missing description!
 [12:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [12:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [12:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:10:25] [Render thread/INFO]: Connecting to localhost, 25565
+[12:10:25] [Server Connector #3/ERROR]: Couldn't connect to server
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25565
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[12:10:29] [Render thread/ERROR]: Couldn't load pack metadata
+com.google.gson.JsonParseException: Invalid/missing description!
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.fromJson(PackMetadataSectionSerializer.java:17) ~[main/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.fromJson(PackMetadataSectionSerializer.java:9) ~[main/:?]
+	at net.minecraft.server.packs.AbstractPackResources.getMetadataFromStream(AbstractPackResources.java:146) ~[main/:?]
+	at net.minecraft.server.packs.VanillaPackResources.getMetadataSection(VanillaPackResources.java:372) ~[main/:?]
+	at net.minecraft.server.packs.repository.Pack.create(Pack.java:44) ~[main/:?]
+	at net.minecraft.server.packs.repository.ServerPacksSource.loadPacks(ServerPacksSource.java:18) ~[main/:?]
+	at net.minecraft.server.packs.repository.PackRepository.discoverAvailable(PackRepository.java:54) ~[main/:?]
+	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:44) ~[main/:?]
+	at net.minecraft.server.MinecraftServer.configurePackRepository(MinecraftServer.java:1542) ~[main/:?]
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:2103) ~[main/:?]
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1941) ~[main/:?]
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1907) ~[main/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:618) ~[main/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:420) ~[main/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:314) ~[main/:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:376) ~[main/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:31) ~[main/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:107) ~[main/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:582) ~[main/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[main/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:223) ~[main/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:118) ~[main/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:222) ~[main/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:220) [main/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1082) [main/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:662) [main/:?]
+	at net.minecraft.client.main.Main.main(Main.java:239) [main/:?]
+	at mcp.client.Start.main(Start.java:17) [main/:?]
+[12:10:29] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:10:29] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:10:29] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:10:29] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:10:29] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:10:29] [Render thread/INFO]: Reloading ResourceManager: Default
+[12:10:29] [Render thread/INFO]: Loaded 7 recipes
+[12:10:29] [Render thread/INFO]: Loaded 1141 advancements
+[12:10:30] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:10:30] [Server thread/INFO]: Starting integrated minecraft server version 1.18.1
+[12:10:30] [Server thread/INFO]: Generating keypair
+[12:10:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:10:30] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:31] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:31] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:31] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:32] [Render thread/INFO]: Preparing spawn area: 37%
+[12:10:32] [Render thread/INFO]: Preparing spawn area: 75%
+[12:10:33] [Render thread/INFO]: Preparing spawn area: 84%
+[12:10:33] [Render thread/INFO]: Preparing spawn area: 98%
+[12:10:33] [Server thread/INFO]: Changing view distance to 8, from 10
+[12:10:33] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[12:10:33] [Render thread/INFO]: Time elapsed: 3532 ms
+[12:10:33] [Server thread/INFO]: Player194[local:E:2d832e28] logged in with entity id 1179 at (-111.83455680308926, 82.0, 161.52882012877203)
+[12:10:33] [Server thread/INFO]: Player194 joined the game
+[12:10:33] [Render thread/INFO]: Loaded 0 advancements
+[12:10:38] [Server thread/INFO]: Player194 lost connection: Kicked by an operator
+[12:10:38] [Server thread/INFO]: Player194 left the game
+[12:10:38] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:10:38] [Server thread/INFO]: [Player194: Kicked Player194: Kicked by an operator]
+[12:10:38] [Server thread/INFO]: Stopping server
+[12:10:38] [Server thread/INFO]: Saving players
+[12:10:38] [Server thread/INFO]: Saving worlds
+[12:10:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:overworld
+[12:10:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:the_nether
+[12:10:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:the_end
+[12:10:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test Optifine World): All chunks are saved
+[12:10:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:10:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:10:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:10:54] [Render thread/ERROR]: Couldn't load pack metadata
+com.google.gson.JsonParseException: Invalid/missing description!
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.fromJson(PackMetadataSectionSerializer.java:17) ~[main/:?]
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.fromJson(PackMetadataSectionSerializer.java:9) ~[main/:?]
+	at net.minecraft.server.packs.AbstractPackResources.getMetadataFromStream(AbstractPackResources.java:146) ~[main/:?]
+	at net.minecraft.server.packs.VanillaPackResources.getMetadataSection(VanillaPackResources.java:372) ~[main/:?]
+	at net.minecraft.server.packs.repository.Pack.create(Pack.java:44) ~[main/:?]
+	at net.minecraft.server.packs.repository.ServerPacksSource.loadPacks(ServerPacksSource.java:18) ~[main/:?]
+	at net.minecraft.server.packs.repository.PackRepository.discoverAvailable(PackRepository.java:54) ~[main/:?]
+	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:44) ~[main/:?]
+	at net.minecraft.server.MinecraftServer.configurePackRepository(MinecraftServer.java:1542) ~[main/:?]
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:2103) ~[main/:?]
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1941) ~[main/:?]
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1907) ~[main/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:618) ~[main/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:420) ~[main/:?]
+	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:314) ~[main/:?]
+	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:376) ~[main/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:31) ~[main/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:107) ~[main/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:582) ~[main/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:105) ~[main/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:223) ~[main/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:118) ~[main/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:222) ~[main/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197) [main/:?]
+	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:461) [main/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1078) [main/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:662) [main/:?]
+	at net.minecraft.client.main.Main.main(Main.java:239) [main/:?]
+	at mcp.client.Start.main(Start.java:17) [main/:?]
+[12:10:54] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:10:54] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:10:54] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:10:54] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:10:54] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:10:54] [Render thread/INFO]: Reloading ResourceManager: Default
+[12:10:54] [Render thread/INFO]: Loaded 7 recipes
+[12:10:54] [Render thread/INFO]: Loaded 1141 advancements
+[12:10:55] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:10:55] [Server thread/INFO]: Starting integrated minecraft server version 1.18.1
+[12:10:55] [Server thread/INFO]: Generating keypair
+[12:10:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:10:55] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:56] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:56] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:56] [Render thread/INFO]: Preparing spawn area: 0%
+[12:10:57] [Render thread/INFO]: Preparing spawn area: 38%
+[12:10:57] [Render thread/INFO]: Preparing spawn area: 74%
+[12:10:58] [Render thread/INFO]: Preparing spawn area: 83%
+[12:10:58] [Render thread/INFO]: Preparing spawn area: 95%
+[12:10:58] [Server thread/INFO]: Changing view distance to 8, from 10
+[12:10:58] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[12:10:58] [Render thread/INFO]: Time elapsed: 3703 ms
+[12:10:58] [Server thread/INFO]: Player194[local:E:3ed07ec4] logged in with entity id 1498 at (-111.83455680308926, 82.0, 161.52882012877203)
+[12:10:58] [Server thread/INFO]: Player194 joined the game
+[12:10:59] [Render thread/INFO]: Loaded 0 advancements
+[12:11:11] [Server thread/INFO]: Player194 fell out of the world
+[12:11:11] [Server thread/INFO]: [Player194: Killed Player194]
+[12:11:11] [Render thread/INFO]: [CHAT] Player194 fell out of the world
+[12:11:11] [Render thread/INFO]: [CHAT] Killed Player194
+[12:11:15] [Server thread/INFO]: Saving and pausing game...
+[12:11:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:overworld
+[12:11:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:the_nether
+[12:11:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:the_end
+[12:11:16] [Server thread/INFO]: Player194 lost connection: Disconnected
+[12:11:16] [Server thread/INFO]: Player194 left the game
+[12:11:16] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[12:11:16] [Server thread/INFO]: Stopping server
+[12:11:16] [Server thread/INFO]: Saving players
+[12:11:16] [Server thread/INFO]: Saving worlds
+[12:11:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:overworld
+[12:11:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:the_nether
+[12:11:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Test Optifine World]'/minecraft:the_end
+[12:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (Test Optifine World): All chunks are saved
+[12:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
