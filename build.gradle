@@ -38,10 +38,12 @@ ext {
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     implementation 'net.minecraftforge:forgespi:' + spi_version
+    implementation 'club.minnced:java-discord-rpc:2.0.2'
 //    Use the shade to add the lib to the jar
 //    or use compile if you want to load the lib from the version.json
 //    from a maven repo
