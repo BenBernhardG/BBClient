@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99aad05-6980-46c2-ace8-bc48ad3b4bd4" name="Changes" comment="Added Workflows">
-      <changelist_data name="BenBernhardG" email="ben@bernhardbmx.net" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" afterDir="false" />
+    <list default="true" id="e99aad05-6980-46c2-ace8-bc48ad3b4bd4" name="Changes" comment="modified workspace.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +41,7 @@
         <option value="BenBernhardG &lt;ben@bernhardbmx.net&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
@@ -114,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700643845615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added pack.mcmeta">
+      <created>1700645433332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645433332</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified workspace.yml">
+      <created>1700645752713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645752713</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -124,7 +137,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Working Client" />
     <MESSAGE value="Added Workflows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Workflows" />
+    <MESSAGE value="added pack.mcmeta" />
+    <MESSAGE value="modified workspace.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified workspace.yml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
