@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e99aad05-6980-46c2-ace8-bc48ad3b4bd4" name="Changes" comment="added and tested OptiFine">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/bernhardbmx/Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/bernhardbmx/discord/RPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/bernhardbmx/discord/RPCCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/bernhardbmx/discord/RPCParty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/assets/indexes/1.18.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/assets/indexes/1.18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/assets/indexes/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/assets/indexes/2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/optionsof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/optionsof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/poi/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/poi/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test Optifine World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/Minecraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/screens/ConnectScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/screens/ConnectScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/screens/DisconnectedScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/screens/DisconnectedScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/screens/TitleScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/minecraft/client/gui/screens/TitleScreen.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/projects/mcp">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BenBernhardG &lt;ben@bernhardbmx.net&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YWYwiVO53copB1sUwPR1RMSMLS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="BBClient [BBClient_client]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="BBClient_client" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BBClient [BBClient_client]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e99aad05-6980-46c2-ace8-bc48ad3b4bd4" name="Changes" comment="" />
+      <created>1700643043398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700643043398</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Working Client">
+      <created>1700643721943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700643721943</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Workflows">
+      <created>1700643845615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700643845615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added pack.mcmeta">
+      <created>1700645433332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645433332</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified workspace.yml">
+      <created>1700645752713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645752713</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added and tested OptiFine">
+      <created>1700646631366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700646631366</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Working Client" />
+    <MESSAGE value="Added Workflows" />
+    <MESSAGE value="added pack.mcmeta" />
+    <MESSAGE value="modified workspace.yml" />
+    <MESSAGE value="added and tested OptiFine" />
+    <option name="LAST_COMMIT_MESSAGE" value="added and tested OptiFine" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
